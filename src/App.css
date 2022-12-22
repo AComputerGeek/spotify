@@ -1,0 +1,136 @@
+/* 
+------------
+Album Viewer
+------------
+*/
+.albumViewer
+{
+  /* border: solid 2px gray; */
+  /* border-radius: 10px; */
+  padding: 20px;
+  margin: 30px auto;
+  margin-bottom: 0px;
+  width: 700px;
+}
+
+.albumViewerContent
+{
+  display: flex;
+}
+
+.albumViewerPic
+{
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  border: solid 2px white;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.selectedAlbumContent
+{
+  padding-left: 30px;
+}
+
+h2
+{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+h3, h4
+{
+  padding-left: 20px;
+}
+
+.albumTitle
+{
+  display: block;
+  color: rgb(200, 200, 255);
+  font-weight: bold;
+  padding: 15px 0px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.albumViewer h3
+{
+  padding-left: 20px;
+}
+
+ol
+{
+  font-size: 15px;
+  padding-left: 50px;
+}
+
+ol li
+{
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.playIcon
+{
+  padding-left: 5px;
+  width: 15px;
+}
+
+/*
+-------------
+albumSelector
+-------------
+*/
+.albumSelector
+{
+  /* border: solid 2px gray; */
+  /* border-radius: 10px; */
+  padding: 20px;
+  margin: 30px auto;
+  margin-top: 0px;
+  width: 700px;
+}
+
+/* 
+-----
+Album
+-----
+*/
+.albumContainer
+{
+  display: flex;
+  padding: 10px;
+}
+
+.albumContainer p
+{
+  padding-left: 10px;
+}
+
+.albumCover
+{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.albumName
+{
+  font-weight: 500;
+  padding-left: 0px;
+}
+
+.App
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: solid 2px black;
+  width: 800px;
+  margin: 0px auto;
+  background-color: black;
+  color: white;
+}
+
+html, body
+{
+  margin: 0px auto;
+}
